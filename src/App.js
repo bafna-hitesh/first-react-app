@@ -22,7 +22,7 @@ export default function App() {
     var meaning = travelDictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = "we dont have in database!";
+      meaning = "Sorry😜 we dont have in database";
     }
 
     setUserInput(meaning);
@@ -35,7 +35,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>
-        <b>Travel Gueeser</b>
+        <b>Travel Guesser🧐 </b>
       </h1>
 
       <input

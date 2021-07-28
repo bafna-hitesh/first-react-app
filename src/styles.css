@@ -27,5 +27,5 @@ input {
   border-radius: 1rem;
   border-style: none;
   border-color: #cd5360;
-  box-shadow: red;
+  box-shadow: 0 0 5px 2px #cd5360;
 }
